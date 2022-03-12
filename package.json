@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "starter project for node jet",
   "bin": "dist/generate.js",
-   "types": "dist/generate.d.ts",
+  "types": "dist/generate.d.ts",
   "prepublish": "tsc",
   "scripts": {
     "uat": "npm run build && node dist/generate myapp",
