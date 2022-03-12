@@ -14,7 +14,8 @@
     "lint": "eslint . --ext .ts",
     "fix": "eslint --fix --ext .ts .",
     "eslint": "eslint",
-    "audit": "npx audit-ci --moderate"
+    "audit": "npx audit-ci --moderate",
+    "test": "npm run pr"
   },
   "repository": {
     "type": "git",
