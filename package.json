@@ -1,5 +1,5 @@
 {
-  "name": "create-node-jet",
+  "name": "create-jetngin",
   "version": "0.0.0",
   "description": "starter project for node jet",
   "bin": "dist/generate.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-jet/create-node-jet.git"
+    "url": "git+https://github.com/jetngin/create-jetngin.git"
   },
   "keywords": [
     "starter",
@@ -29,7 +29,7 @@
   "author": "Daniel Samson <contact@nodejet.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/node-jet/create-node-jet/issues"
+    "url": "https://github.com/jetngin/create-jetngin/issues"
   },
   "homepage": "https://nodejet.org",
   "dependencies": {
