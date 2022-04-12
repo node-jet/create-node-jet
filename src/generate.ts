@@ -44,6 +44,7 @@ request('https://github.com/jetngin/starter/zipball/master')
         unlinkSync(zipFile);
         process.chdir(join(process.cwd(), projectName));
         runCommand('npm install');
+        runCommand('node jet init');
         console.log(`Success! run 'cd ${projectName} && node jet' to get started`);
       })
       .catch((err: any) => {
